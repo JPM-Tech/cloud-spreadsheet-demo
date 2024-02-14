@@ -33,7 +33,7 @@ struct ProductList: View {
             }
             .task {
                 if vm.products.isEmpty {
-//                    await vm.fetchProducts()
+                    await vm.fetchProducts()
                 }
             }
             .navigationTitle("Products")

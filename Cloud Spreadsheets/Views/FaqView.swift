@@ -23,7 +23,7 @@ struct FaqView: View {
             }
             .task {
                 if vm.products.isEmpty {
-//                    await vm.fetchFaqs()
+                    await vm.fetchFaqs()
                 }
             }
             .navigationTitle("FAQs")

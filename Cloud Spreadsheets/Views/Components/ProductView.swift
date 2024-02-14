@@ -17,6 +17,9 @@ struct ProductView: View {
                     switch imagePhase {
                     case .empty:
                         Image(systemName: "ellipsis")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 75, height: 75)
                     case .success(let returnedImage):
                         returnedImage
                             .resizable()

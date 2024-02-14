@@ -17,9 +17,7 @@ class ViewModel: ObservableObject {
     func fetchProducts() async {
         guard let result: ProductRecords = await WebService().fetchDataFrom(from: .product) else {return}
         
-        if config.isEmpty {
-            await fetchConfig()
-        }
+        await fetchConfig()
         
         products = result.records.map(\.fields).sorted {$0.price > $1.price}
     }
