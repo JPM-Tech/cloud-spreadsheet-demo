@@ -11,7 +11,6 @@
 		4628FF542B6D175A0031B8FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628FF532B6D175A0031B8FF /* Constants.swift */; };
 		4628FF562B6D1A300031B8FF /* ATTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628FF552B6D1A300031B8FF /* ATTable.swift */; };
 		4628FF5B2B6D1EE40031B8FF /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628FF5A2B6D1EE40031B8FF /* ProductView.swift */; };
-		4670E3A82B725D410013D46D /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670E3A72B725D410013D46D /* Records.swift */; };
 		4670E3AA2B725DA00013D46D /* ScheduleFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670E3A92B725DA00013D46D /* ScheduleFields.swift */; };
 		4670E3AD2B7261820013D46D /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670E3AC2B7261820013D46D /* ProductList.swift */; };
 		4670E3B02B7262D40013D46D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670E3AF2B7262D40013D46D /* ViewModel.swift */; };
@@ -37,7 +36,6 @@
 		4628FF532B6D175A0031B8FF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4628FF552B6D1A300031B8FF /* ATTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTable.swift; sourceTree = "<group>"; };
 		4628FF5A2B6D1EE40031B8FF /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
-		4670E3A72B725D410013D46D /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
 		4670E3A92B725DA00013D46D /* ScheduleFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleFields.swift; sourceTree = "<group>"; };
 		4670E3AC2B7261820013D46D /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		4670E3AF2B7262D40013D46D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		4670E3AB2B725E710013D46D /* AirTable Specific */ = {
 			isa = PBXGroup;
 			children = (
-				4670E3A72B725D410013D46D /* Records.swift */,
 				4628FF512B6D167A0031B8FF /* AirTableAttachment.swift */,
 				4628FF552B6D1A300031B8FF /* ATTable.swift */,
 			);
@@ -238,7 +235,6 @@
 				467FD8322B7A29C50096D8BF /* FeedbackForm.swift in Sources */,
 				4628FF562B6D1A300031B8FF /* ATTable.swift in Sources */,
 				467A3D7B2B76BDB000918611 /* String+isBlank.swift in Sources */,
-				4670E3A82B725D410013D46D /* Records.swift in Sources */,
 				467A3D782B76524600918611 /* RatingView.swift in Sources */,
 				46CC88812B626FA500EE5D65 /* WebService.swift in Sources */,
 				4628FF522B6D167A0031B8FF /* AirTableAttachment.swift in Sources */,

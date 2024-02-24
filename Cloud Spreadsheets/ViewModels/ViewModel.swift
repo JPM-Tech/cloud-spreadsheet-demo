@@ -1,10 +1,3 @@
-//
-//  AirTableViewModel.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/6/24.
-//
-
 import Foundation
 
 @MainActor

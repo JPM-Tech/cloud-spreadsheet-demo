@@ -1,10 +1,3 @@
-//
-//  ScheduleView.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/8/24.
-//
-
 import SwiftUI
 
 struct ScheduleView: View {

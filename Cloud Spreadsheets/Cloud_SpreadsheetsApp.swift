@@ -1,10 +1,3 @@
-//
-//  Cloud_SpreadsheetsApp.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 1/25/24.
-//
-
 import SwiftUI
 
 @main

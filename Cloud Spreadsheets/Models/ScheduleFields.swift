@@ -1,10 +1,3 @@
-//
-//  ScheduleFields.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/6/24.
-//
-
 import Foundation
 
 struct ScheduleRecords: Codable {

@@ -1,14 +1,8 @@
-//
-//  ProductList.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/6/24.
-//
-
 import SwiftUI
 
 struct ProductList: View {
     @StateObject var vm = ViewModel()
+    let row = [GridItem(.flexible(), alignment: .top)]
     
     var body: some View {
         NavigationStack {
@@ -23,7 +17,7 @@ struct ProductList: View {
                     }
                 } else {
                     ScrollView(.horizontal) {
-                        LazyHGrid(rows: [GridItem(.flexible(), alignment: .top)]) {
+                        LazyHGrid(rows: row) {
                             ForEach(vm.products, id: \.name) { product in
                                 ProductView(product: product).frame(width: 200).padding()
                             }

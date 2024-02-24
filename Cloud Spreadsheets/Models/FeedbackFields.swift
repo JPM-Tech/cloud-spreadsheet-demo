@@ -1,10 +1,3 @@
-//
-//  FeedbackFields.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/9/24.
-//
-
 import Foundation
 
 struct FeedbackRecords: Codable {

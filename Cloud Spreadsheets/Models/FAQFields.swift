@@ -1,10 +1,3 @@
-//
-//  FAQFields.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/8/24.
-//
-
 import Foundation
 
 struct FaqRecords: Codable {

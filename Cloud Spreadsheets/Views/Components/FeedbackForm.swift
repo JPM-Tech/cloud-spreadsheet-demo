@@ -1,10 +1,3 @@
-//
-//  FeedbackForm.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/12/24.
-//
-
 import SwiftUI
 
 struct FeedbackForm: View {

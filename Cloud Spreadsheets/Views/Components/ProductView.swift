@@ -1,10 +1,3 @@
-//
-//  ProductView.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/2/24.
-//
-
 import SwiftUI
 
 struct ProductView: View {

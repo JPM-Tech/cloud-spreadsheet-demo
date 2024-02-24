@@ -1,10 +1,3 @@
-//
-//  Config.swift
-//  Cloud Spreadsheets
-//
-//  Created by Chase Lewis on 2/12/24.
-//
-
 import Foundation
 
 struct ConfigRecords: Codable {
